@@ -2,4 +2,9 @@ matvey's file v.0.0.1
 and new line here
 and here
 v1.2.1
+<<<<<<< HEAD
 new line stash2
+=======
+add something new
+and here
+>>>>>>> aa14d72 (Add program)
