@@ -1,0 +1,10 @@
+diff --git a/file1.txt b/file1.txt
+index 4b4c9cc..d7a3e8c 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -2,3 +2,4 @@ matvey's file v.0.0.1
+ and new line here
+ and here
+ v1.2.1
++new line stash3
+\ No newline at end of file
