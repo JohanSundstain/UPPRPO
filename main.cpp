@@ -6,11 +6,11 @@ int main()
 {
 	std::cout << "file1.txt: \n";
 	std::ifstream in("file1.txt");
-	std::string word = "";
+	char buffer[256];
 	while (!in.eof())
 	{
-		in >> word;	
-		std::cout << word << std::endl;
+		in.getline(buffer, 256);	
+		std::cout << buffer << std::endl;
 	}
 	
 	in.close();
